@@ -8,6 +8,7 @@ console.log(myFullName);
 var myLove;
 myLove="I love only JS"
 console.log(myLove);
+console.log('my details');
 var firstName="Varsha"
 var lastName="Shelake"
 var age="26"
