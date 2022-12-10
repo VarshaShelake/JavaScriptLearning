@@ -4,6 +4,8 @@
 console.log('====================ypeOf Operator=================');
 console.log('.....................1......................');
 var bankName;
+var typeOf
+console.log(typeOf);
 console.log(bankName);  
 bankName="SBI Bank"
 console.log(bankName,typeof bankName);
