@@ -16,3 +16,15 @@ console.log(`Hey ${femaleName} you are ${marriageEligibility} for marriage`);
 }
 femaleMarriageEligibility("Female",16,"Jenifer");
 femaleMarriageEligibility("Female",27,"Malinda Gates");
+
+function maleMarriageEligibility(gender,age,boyName) {
+    console.log(`Personal Details : Name : ${boyName}, Gender : ${gender}, Age : ${age}`);
+    var result = ((gender==="Male") && (age>=21)) ? `Hey ${boyName} you are Eligible for Marriage` : `Not Eligible for Marriage.`;
+
+    //var result = ((gender==="Male") && (age>=21)) ? console.log(`Hey ${boyName} you are Eligible for Marriage`) : console.log("Not Eligible for Marriage. ");
+    return result;
+} 
+
+var res =  maleMarriageEligibility("Male",25,"Billgates");
+console.log(res);
+console.log("===========================");
