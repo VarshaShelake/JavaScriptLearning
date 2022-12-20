@@ -1,6 +1,24 @@
 console.log(`..................................................1..........................................`);
 console.log(`************ To Check Age Eligibility For Voting************ `);
 
+// sir code...................................
+// var votingEligibility = function(age){
+//     if(age<=0 || age>120 ){
+//         console.log(`Age value : ${age}, Invalid data`);
+//     }
+//     if(age>=18 && age<=120) {
+//         console.log(`your age is : ${age}, You can vote`);
+//     }
+//     if(age<18 && age>0){
+//         console.log(`your age is : ${age}, You can note vote`);
+//     }
+// }
+// votingEligibility(20);
+// votingEligibility(89);
+// votingEligibility(1500);
+// votingEligibility(0);
+
+
 var VotingEligibility=function(age){
 var a1=`${age} age is eligible for voting`
 var a2=`${age} age is In valid data`
