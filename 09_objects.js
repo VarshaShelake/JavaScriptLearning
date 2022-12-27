@@ -11,6 +11,8 @@ const datta = {
       color: "Silver",
       processor: "M1 Processor"
   }
+  console.log(`creating a laptop object with different properties`);
+  console.log(myLaptop);
 
   console.log(`=== Creating an empty object====`);
 const mobile = {
