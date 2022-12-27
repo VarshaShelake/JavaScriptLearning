@@ -110,8 +110,8 @@ console.log(arrayOfNum);
 console.log(`======== unshift() methods=========`);
 var arrayOfNum1 = [4, 5, 6, 8, 9, 1];
 console.log(arrayOfNum1);
-arrayOfNum.unshift(77);
-arrayOfNum.unshift(99, 111, 333);
+arrayOfNum1.unshift(77);
+arrayOfNum1.unshift(99, 111, 333);
 console.log(arrayOfNum1);
 
 console.log(`======== pop() methods=========`);
@@ -166,3 +166,24 @@ var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
 let isAvailable =  arrayOfNum.includes(9);
 console.log(isAvailable);
 
+console.log(`======== join() ==========`);
+	var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+	let joinResult = arrayOfNum.join(" ");
+	console.log(joinResult);
+	console.log(typeof joinResult);
+
+	console.log(`======== concat() ==========`);
+	var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+	let arrayOfNames = ["Moni", "Jenny", "Shenny", "Tomy"];
+	let arrayOfCities = ["Pune", "Mumbai", "Banglore"];
+	const concatArray = arrayOfNum.concat(arrayOfNames, arrayOfCities);
+	console.log(concatArray);
+
+	console.log(`======== Resize an array ==========`);
+	var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+	console.log(arrayOfNum.length);
+	arrayOfNum.length = 5;
+	console.log(arrayOfNum);
+	console.log(arrayOfNum.length);
+
+	
